@@ -1,0 +1,55 @@
+.txt{
+  color: beige;
+  font-family: 'Belanosima', sans-serif;
+  font-weight: 38px;
+  font-size: 22px;
+  text-shadow: 2px 2px 8px #d9c7c7;
+}
+
+.tile{
+  font-size: 30px;
+  color: #d9c7c7;
+  text-shadow: 1px 1px 3px rgb(54, 49, 49);
+}
+
+* {
+    padding: 0;
+    margin: 0
+  }
+  .parent:first-of-type {
+    background: #ffffff url("https://akm-img-a-in.tosshub.com/sites/btmt/images/stories//March2013/doublepullman_022213102514.jpg") no-repeat center center fixed;
+    background-size: cover;
+  }
+  .parent:nth-of-type(2) {
+    background: #ffffff url("https://akm-img-a-in.tosshub.com/sites/btmt/images/stories//March2013/phantom_022113040649.jpg") no-repeat center center fixed;
+    background-size: cover;
+  }
+  .parent:nth-of-type(3) {
+    background: #ffffff url("https://akm-img-a-in.tosshub.com/sites/btmt/images/stories//March2013/corniche_022113040608.jpg") no-repeat center center fixed;
+    background-size: cover;
+  }
+  .parent:nth-of-type(4) {
+    background: #ffffff url("https://akm-img-a-in.tosshub.com/sites/btmt/images/stories//March2013/silverspirit_022113035433.jpg") no-repeat center center fixed;
+    background-size: cover;
+  }
+  .parent:last-of-type {
+    background: #ffffff url("https://i.gaw.to/vehicles/photos/07/65/076507_2016_rollsroyce_Phantom.jpg?640x400") no-repeat center center fixed;
+    background-size: cover;
+  }
+  .parent {
+    width: 100%;
+    height: 150vh;
+    color: #fff;
+    text-shadow: 0 0 5px #000;
+    font-family: tahoma;
+    text-align: center;
+    line-height: 180%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden
+  }
+  .parent p {
+    padding: 25px
+  }
