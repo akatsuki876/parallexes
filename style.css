@@ -14,7 +14,7 @@
 
 * {
     padding: 0;
-    margin: 0
+    margin: 0;
   }
   .parent:first-of-type {
     background: #ffffff url("https://akm-img-a-in.tosshub.com/sites/btmt/images/stories//March2013/doublepullman_022213102514.jpg") no-repeat center center fixed;
@@ -32,8 +32,8 @@
     background: #ffffff url("https://akm-img-a-in.tosshub.com/sites/btmt/images/stories//March2013/silverspirit_022113035433.jpg") no-repeat center center fixed;
     background-size: cover;
   }
-  .parent:last-of-type {
-    background: #ffffff url("https://i.gaw.to/vehicles/photos/07/65/076507_2016_rollsroyce_Phantom.jpg?640x400") no-repeat center center fixed;
+  .parent:nth-of-type(5){
+    background: #ffffff url("https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Rolls-Royce_Ghost_%28MSP16%29.jpg/420px-Rolls-Royce_Ghost_%28MSP16%29.jpg") no-repeat center center fixed;
     background-size: cover;
   }
   .parent {
@@ -48,8 +48,8 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    overflow: hidden
+    overflow: hidden;
   }
   .parent p {
-    padding: 25px
+    padding: 25px;
   }
